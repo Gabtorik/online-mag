@@ -1,0 +1,127 @@
+nav > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(71, 38, 150);
+    padding: 2.2vh;
+    color: white;
+    height: 2vh;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.adminka > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.adminka > ul > li > a{
+    cursor: pointer;
+    width: 20vw;
+    text-align: center;
+    font-size: 2vh;
+}
+.adminka > ul > li{
+    width: 20vw;
+    text-align: center;
+}
+.adminka{
+    margin: 0 auto;
+    width: 85vw;
+}
+.break_adm{
+    height: 2vh;
+}
+.adminka > h1{
+    font-size: 4vh;
+
+}
+nav > ul > li{
+    font-size: 2vh;
+
+}
+.active{
+    opacity: 1;
+    z-index: 1;
+}
+.form_male_parent._active{
+    opacity: 1;
+    z-index: 1;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.form_male._active{
+    opacity: 1;
+    z-index: 1;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.btn-adm-mj-help{
+    
+    opacity: 0;
+    z-index: -1;
+    width: 12vw;
+    height: 4.5vh;
+    font-size: 1.9vh;
+    padding: 5px;
+    background-color: white;
+    outline: none;
+    border-color: rgb(232, 44, 44);
+    border-width: 0.3vh;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+}
+.btn-adm-mj-help:hover{
+    transition: all 0.6s ease;
+    background-color: rgb(232, 44, 44);
+    color: white;
+}
+.btn-adm-mj-help:active{
+    transition: all 0.2s ease;
+    border-color: rgb(rgb(167, 32, 32));
+}
+input{
+    outline: none;
+    font-size: 2vh;
+}
+.btn-submit-php{
+    padding: 5px;
+    background-color:white;
+    color: black;
+    border-color:blue;
+    transition: all 0.7s ease-in-out;
+    font-size: 2.2vh;
+}
+.btn-submit-php:hover{
+    transition: all 0.6s ease;
+    background-color:blue;
+    cursor: pointer;
+    color:white;
+}
+.form_male{
+    position: absolute;
+    width: 20vw;
+    opacity: 0;
+
+}
+.form_male_parent{
+    z-index: -1;
+}
+.form_male > input{
+    /* margin: 0.3vw; */
+    height: 3vh;
+}
+#btn1, #btn2{
+    height: 4vh;
+}
+.form_male > h2{
+    font-size: 3vh;
+}
